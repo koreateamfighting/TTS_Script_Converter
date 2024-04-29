@@ -1,0 +1,10 @@
+^C:\USERS\MEDIAZEN\ANDROIDSTUDIOPROJECTS\TTS_SCRIPT_CONVERTER\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/MEDIAZEN/AndroidStudioProjects/tts_script_converter/windows -BC:/Users/MEDIAZEN/AndroidStudioProjects/tts_script_converter/build/windows/x64 --check-stamp-file C:/Users/MEDIAZEN/AndroidStudioProjects/tts_script_converter/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

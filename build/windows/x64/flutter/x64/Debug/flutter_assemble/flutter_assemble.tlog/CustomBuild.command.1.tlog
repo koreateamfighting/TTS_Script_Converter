@@ -1,0 +1,28 @@
+^C:\USERS\MEDIAZEN\ANDROIDSTUDIOPROJECTS\TTS_SCRIPT_CONVERTER\BUILD\WINDOWS\X64\CMAKEFILES\68CF1163F377F9F1C12AEB103EC70235\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter PROJECT_DIR=C:\Users\MEDIAZEN\AndroidStudioProjects\tts_script_converter FLUTTER_ROOT=C:\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\MEDIAZEN\AndroidStudioProjects\tts_script_converter\windows\flutter\ephemeral PROJECT_DIR=C:\Users\MEDIAZEN\AndroidStudioProjects\tts_script_converter FLUTTER_TARGET=C:\Users\MEDIAZEN\AndroidStudioProjects\tts_script_converter\lib\main.dart DART_DEFINES=Zmx1dHRlci5pbnNwZWN0b3Iuc3RydWN0dXJlZEVycm9ycz10cnVl,RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC82ZTJlYTU4YTVjY2JlZmNmYWRjMmQ0YjdiODA0NWZjNmMyMGFiODEyLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\MEDIAZEN\AndroidStudioProjects\tts_script_converter\.dart_tool\package_config.json C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MEDIAZEN\ANDROIDSTUDIOPROJECTS\TTS_SCRIPT_CONVERTER\BUILD\WINDOWS\X64\CMAKEFILES\4A7E30CB510F20CEC45BE0934415BF76\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\MEDIAZEN\ANDROIDSTUDIOPROJECTS\TTS_SCRIPT_CONVERTER\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/MEDIAZEN/AndroidStudioProjects/tts_script_converter/windows -BC:/Users/MEDIAZEN/AndroidStudioProjects/tts_script_converter/build/windows/x64 --check-stamp-file C:/Users/MEDIAZEN/AndroidStudioProjects/tts_script_converter/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
